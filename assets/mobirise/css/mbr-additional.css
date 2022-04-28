@@ -1836,7 +1836,7 @@ section.lazy-placeholder:after {
 }
 .cid-sZG5Ndz3xL .mbr-iconfont {
   font-size: 2rem;
-  color: #ffffff;
+  color: #f5f7fa;
   background: #ff4a52;
   width: 80px;
   padding: 10px;
@@ -1863,7 +1863,7 @@ section.lazy-placeholder:after {
   border-radius: 6px;
   padding: 4rem 3rem;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
-  background: #212428;
+  background: #232323;
   transition: all 0.3s;
 }
 .cid-sZG5Ndz3xL .card-wrapper:hover .mbr-iconfont-big {
@@ -1882,7 +1882,7 @@ section.lazy-placeholder:after {
   color: #bbbbbb;
 }
 .cid-sZG5Ndz3xL .mbr-section-title {
-  color: #ff4a52;
+  color: #ffffff;
   text-align: center;
 }
 .cid-sZG5Ndz3xL .mbr-section-subtitle {
