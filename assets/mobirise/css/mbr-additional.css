@@ -9,7 +9,7 @@ body {
   font-size: 3.4rem;
 }
 .display-2 {
-  font-family: 'Bebas Neue', display;
+  font-family: 'Merriweather', serif;
   font-size: 2.6rem;
 }
 .display-2 > .mbr-iconfont {
@@ -17,10 +17,10 @@ body {
 }
 .display-4 {
   font-family: 'Bebas Neue', display;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 .display-5 {
   font-family: 'Open Sans', sans-serif;
@@ -30,11 +30,11 @@ body {
   font-size: 2rem;
 }
 .display-7 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
+  font-family: 'Bebas Neue', display;
+  font-size: 1.4rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -53,9 +53,9 @@ body {
     line-height: calc( 1.4 * (1.56rem + (2.6 - 1.56) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.6rem;
@@ -520,11 +520,11 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
+  font-family: 'Bebas Neue', display;
+  font-size: 1.4rem;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 blockquote {
   border-color: #9e9e9e;
@@ -1641,7 +1641,7 @@ section.lazy-placeholder:after {
 .cid-sZGdfEHevB {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/background1-1.jpg");
+  background-image: url("../../../assets/images/mbr-1920x1338.jpg");
 }
 .cid-sZGdfEHevB .container-fluid {
   overflow: hidden;
@@ -1817,6 +1817,10 @@ section.lazy-placeholder:after {
 .cid-sZGdfEHevB .testimonials-quote {
   color: #ffffff;
 }
+.cid-sZGdfEHevB .user_text,
+.cid-sZGdfEHevB .testimonials-quote {
+  color: #e9e9e9;
+}
 .cid-sZG5Ndz3xL {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1898,13 +1902,13 @@ section.lazy-placeholder:after {
   font-size: 32px;
   border-radius: 50%;
   padding: 0.6rem;
-  border: 2px solid #232323;
+  border: 2px solid #ffffff;
   transition: all 0.3s;
-  color: #232323;
+  color: #ffffff;
 }
 .cid-sZG77F55fb .social-row .soc-item .mbr-iconfont:hover {
-  background-color: #232323;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
 }
 .cid-sZG77F55fb .mbr-text,
 .cid-sZG77F55fb .mbr-section-btn,
@@ -1915,6 +1919,25 @@ section.lazy-placeholder:after {
 .cid-sZG77F55fb .mbr-section-title {
   color: #ff6b71;
   text-align: left;
+}
+.cid-t4hfR4z7TX {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-t4hfR4z7TX .p {
+  color: #333333;
+  padding-top: 30px;
+  text-align: center;
+}
+.cid-t4hfR4z7TX .row {
+  justify-content: center;
+}
+.cid-t4hfR4z7TX a {
+  font-weight: 400 !important;
+}
+.cid-t4hfR4z7TX .card-heading {
+  text-align: center;
 }
 .cid-rzHa6XC5QH {
   padding-top: 30px;
